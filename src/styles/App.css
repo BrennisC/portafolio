@@ -1,0 +1,26 @@
+/* Estilo para la barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 0.1px 0.1px 0.1px 0.1px;
+  border-radius: 8.9px;
+  background-color: #0c151d;
+}
+
+.nav-link {
+  color: rgb(241, 242, 244);
+  text-decoration: none;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0c151d;
+  border-radius: 10px;
+}
+
+.nav-link:active {
+  color: rgb(241, 242, 244);
+  background-color: #0c151d;
+}
